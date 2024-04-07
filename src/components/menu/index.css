@@ -1,0 +1,35 @@
+/* Estilos do Menu */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff4d4d; /* Vermelho */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adicionando sombra ao menu */
+}
+
+li {
+    float: left;
+}
+
+li:first-child {
+    margin-left: 25px;
+}
+
+li a {
+    display: block;
+    color: #fff; /* Alterando a cor do texto para branco */
+    padding: 15px 20px; /* Aumentando o padding para tornar os itens do menu mais espaçados */
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: #e60000; /* Vermelho mais escuro */
+}
+
+li:last-child {
+    float: right;
+    margin-right: 25px;
+}
